@@ -1,3 +1,3 @@
-dock
-mahmut
-cat
+Duck
+Mammoth
+Cat
