@@ -77,3 +77,12 @@ gitLabb steg för steg:
 20.4. git switch main
 20.5. git merge --no-ff feature3
 20.6. git push 
+
+20.7. git reset --hard a2dc
+20.8. git switch feature3
+20.9. open fix2.txt
+20.10. git add fix2.txt
+20.11. git commit -m "update fix2.txt with 16-20"
+20.12. git switch main
+20.13. git merge --no-ff feature3
+20.14. git push --force
