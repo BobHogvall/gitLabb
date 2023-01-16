@@ -1,0 +1,9 @@
+# ignore all files ending with jar
+*.jar
+
+# ignore directories out
+out/
+
+# ignore target with exception .html
+target/*
+!target/*.html
