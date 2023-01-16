@@ -53,6 +53,27 @@ gitLabb steg för steg:
 15.2. git add .
 15.3. git commit -m "add git-steps to fix2.txt"
 
-
 16.1. git remote add origin https://github.com/BobHogvall/gitLabb.git
 16.2. git push -u origin main
+16.3. open fix2.txt
+16.4. git add .
+16.5. git commit -m ”update fix2.txt”
+16.6. git push
+
+17.1. touch .gitignore
+17.2. open .gitignore 
+17.3. git add .gitignore
+17.4. Git commit -m ”add .gitignore”
+17.5. Git push
+
+18. git tag -a v1.0 -m "Version 1.0"
+
+19. Git rebase -i HEAD~4
+
+20.1. Git switch -c feature3
+20.2. open fix2.txt
+20.3. git add fix2.txt
+20.4. git commit -m "update fix2.txt with 16-20"
+20.4. git switch main
+20.5. git merge --no-ff feature3
+20.6. git push 
